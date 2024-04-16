@@ -1,0 +1,16 @@
+.courseFee{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.collagewrap{
+    display: flex;
+    justify-content: center;
+}
+.collagewrap p{
+    color: orange;
+}
+.collegeLogo{
+  width: 30px;
+  height: 30px;
+}

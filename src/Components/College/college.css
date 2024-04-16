@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.college{
+    align-items: center;
+   
+}
+.collegewrap{
+    display: flex;
+    align-items: center;
+}
+.collegeImg{
+    width: 30px;
+    height: 30px;
+}
+.location{
+    font-size: 12px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.middlepart{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(241, 232, 43);
+    border-left: 3px solid rgb(234, 136, 24);
+    margin-bottom: 20px;
+}
+.buttonpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonpart1{
+    display: flex;
+    align-items: center;
+}
+.buttonpart2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.buttonImg{
+    width: 20px;
+    height: 20px;
+}
+.buttonpart3{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+.buttonpart button{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(212, 152, 12);
+}
+.buttonpart .buttonpart2 button{
+    color: green;
+}

@@ -1,0 +1,11 @@
+.userReview{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.userRate{
+    width: 200px;
+    height: 30px;
+    background-color: orange;
+}
