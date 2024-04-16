@@ -7,16 +7,16 @@ import Placement from '../Components/Placement/Placement';
 import UserReview from '../Components/UserReview/UserReview';
 
 const DummyData = [
-  { id: 1, name: '', featured: true, fees: 10000,placement:'120000', userReviewRating: 4.5},
+  { id: 1, name: 'A-Featured', featured: true, fees: 10000,placement:'120000', userReviewRating: 4.5},
   { id: 2, name: '', featured: false,fees: 12000,placement:'130000', userReviewRating: 4.0 },
   { id: 3, name: '', featured: false,fees: 15000,placement:'130000', userReviewRating: 4.5 },
-  { id: 4, name: '', featured: true, fees: 10000,placement:'130000', userReviewRating: 4.2 },
+  { id: 4, name: 'A-Featured', featured: true, fees: 10000,placement:'130000', userReviewRating: 4.2 },
   { id: 5, name: '', featured: false,fees: 12000,placement:'130000', userReviewRating: 4.0 },
   { id: 6, name: '', featured: false,fees: 15000,placement:'130000', userReviewRating: 4.5 },
-  { id: 7, name: '', featured: true, fees: 10000,placement:'130000', userReviewRating: 4.2 },
+  { id: 7, name: 'A-Featured', featured: true, fees: 10000,placement:'130000', userReviewRating: 4.2 },
   { id: 8, name: '', featured: false, fees: 12000,placement:'130000', userReviewRating: 4.0 },
   { id: 9, name: '', featured: false,fees: 15000,placement:'130000', userReviewRating: 4.5 },
-  { id: 10, name: '', featured: true,fees: 95000,placement:'130000', userReviewRating: 4.5 },
+  { id: 10, name: 'A-Featured', featured: true,fees: 95000,placement:'130000', userReviewRating: 4.5 },
   { id: 11, name: '', featured: false,fees: 12000,placement:'130000', userReviewRating: 4.0 },
   { id: 12, name: '', featured: false,fees: 15000,placement:'130000', userReviewRating: 4.5 },
   
@@ -72,7 +72,7 @@ const Table = () => {
 
   return (
     <div className='App'>
-      <input type="text" placeholder="Search by college name" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
+      <input className='input1' type="text" placeholder="Search by college name" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
       <table>
         <thead>
           <tr>
